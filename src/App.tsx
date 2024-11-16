@@ -1,20 +1,12 @@
-import appCss from "./App.module.css";
-import Header from "./components/header/header.tsx";
-import TitleScreen from "./components/titleScreen/titleScreen.tsx";
-import BackgroundCanvas from "./components/backgroundCanvas/backgroundCanvas.tsx";
+import Background from "./components/Background";
+import MainContainer from "./components/MainContainer";
 
+import "./index.css";
 function App() {
   return (
-    <div className={appCss.main_container}>
-      <div className={appCss.header}>
-        <Header />
-      </div>
-      <div id="canvas-container" className={appCss.canvas_container}>
-        <BackgroundCanvas />
-      </div>
-      <div>
-        <TitleScreen />
-      </div>
+    <div className="w-full lg:h-auto h-full min-h-max max-h-full flex justify-center align-middle">
+      <Background />
+      <MainContainer />
     </div>
   );
 }
