@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div className="flex w-full h-full lg:h-72 text-gray-300 relative">
-      <div className="flex flex-col w-full pr-3 pl-3 pt-3 ">
+      <div className="flex flex-col w-full p-5">
         <h1 className="text-xl font-bold">About me!</h1>
         <p className="pt-1">
           Hi! I'm Josh and I'm a junior at the University of Maryland.
