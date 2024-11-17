@@ -1,4 +1,5 @@
 import img from "../../assets/bitmoji_cropped.png";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const MainIntro = () => {
   return (
@@ -10,7 +11,35 @@ const MainIntro = () => {
             I'm <span className="font-bold">Josh Lee</span>, and I'm a
             university student studying Math and Computer Science!
           </p>
-          <div> MORE STUFF</div>
+          <br />
+          <div className="flex flex-row gap-4">
+            <FaGithub
+              className={`
+                border-white border-4 rounded-xl p-2 
+                transition transform hover:-translate-y-2 
+                motion-reduce:transition-none motion-reduce:hover:transform-none
+                `}
+              size={"3em"}
+            />
+            <FaLinkedin
+              className={`
+                border-white border-4 rounded-xl p-2 
+                transition transform hover:-translate-y-2
+                motion-reduce:transition-none motion-reduce:hover:transform-none
+                `}
+              size={"3em"}
+            />
+            <FaInstagram
+              className={`
+                border-white border-4 rounded-xl p-2 
+                transition transform hover:-translate-y-2 
+                motion-reduce:transition-none motion-reduce:hover:transform-none
+                `}
+              size={"3em"}
+            />
+
+            <div />
+          </div>
         </div>
         <img
           src={img}
