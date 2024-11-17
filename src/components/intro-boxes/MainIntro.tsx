@@ -13,30 +13,39 @@ const MainIntro = () => {
           </p>
           <br />
           <div className="flex flex-row gap-4">
-            <FaGithub
-              className={`
-                border-white border-4 rounded-xl p-2 
+            <a href="https://github.com/jminlee24" target="_blank">
+              <FaGithub
+                className={`
+                border-gray-600 border-2 rounded-xl p-2 
                 transition transform hover:-translate-y-2 
+                hover:border-outline hover:border-4 hover:cursor-pointer
                 motion-reduce:transition-none motion-reduce:hover:transform-none
                 `}
-              size={"3em"}
-            />
-            <FaLinkedin
-              className={`
-                border-white border-4 rounded-xl p-2 
+                size={"3em"}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/jmlee2004/" target="_blank">
+              <FaLinkedin
+                className={`
+                border-gray-600 border-2 rounded-xl p-2 
                 transition transform hover:-translate-y-2
+                hover:border-outline hover:border-4 hover:cursor-pointer
                 motion-reduce:transition-none motion-reduce:hover:transform-none
                 `}
-              size={"3em"}
-            />
-            <FaInstagram
-              className={`
-                border-white border-4 rounded-xl p-2 
+                size={"3em"}
+              />
+            </a>
+            <a href="https://www.instagram.com/josh.m.lee/" target="_blank">
+              <FaInstagram
+                className={`
+                border-gray-600 border-2 rounded-xl p-2 
                 transition transform hover:-translate-y-2 
+                hover:border-outline hover:border-4 hover:cursor-pointer
                 motion-reduce:transition-none motion-reduce:hover:transform-none
                 `}
-              size={"3em"}
-            />
+                size={"3em"}
+              />
+            </a>
 
             <div />
           </div>
