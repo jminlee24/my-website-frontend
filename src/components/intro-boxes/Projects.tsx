@@ -2,7 +2,7 @@ const Projects = () => {
   return (
     <div className="flex flex-row w-full h-full lg:h-72 text-gray-300 relative">
       <div className="flex-3 flex-col p-5 ">
-        <h1 className="text-xl font-semibold pb-2">Highlighted Projects</h1>
+        <h1 className="text-xl font-bold pb-2">Highlighted Projects</h1>
         <h2 className="text-lg font-semibold">
           <a
             href="https://github.com/jminlee24/minecraft_webgpu"
