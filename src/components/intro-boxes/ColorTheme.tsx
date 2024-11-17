@@ -11,19 +11,31 @@ const ColorTheme = (props: Props) => {
     >
       <div className="w-full flex flex-row justify-between align-middle items-center">
         <div
-          className={`border-outline border-4 bg-red rounded-full w-12 h-12 min-w-12`}
+          className={`
+            border-outline border-4 bg-red rounded-full w-12 h-12 min-w-12 hover:border-red
+            transition ease-in hover:scale-125 hover:cursor-pointer
+            `}
           onClick={() => props.handleColorChange("red")}
         ></div>
         <div
-          className={`border-outline border-4 bg-green rounded-full w-12 h-12 min-w-12`}
+          className={`
+            border-outline border-4 bg-green rounded-full w-12 h-12 min-w-12 hover:border-green
+            transition ease-in hover:scale-125 hover:cursor-pointer
+            `}
           onClick={() => props.handleColorChange("green")}
         ></div>
         <div
-          className={`border-outline border-4 bg-blue rounded-full w-12 h-12 min-w-12`}
+          className={`
+            border-outline border-4 bg-blue rounded-full w-12 h-12 min-w-12 hover:border-blue
+            transition ease-in hover:scale-125 hover:cursor-pointer
+            `}
           onClick={() => props.handleColorChange("blue")}
         ></div>
         <div
-          className={`border-outline border-4 bg-white rounded-full w-12 h-12 min-w-12`}
+          className={`
+            border-outline border-4 bg-white rounded-full w-12 h-12 min-w-12 hover:border-white
+            transition ease-in-out hover:scale-125 hover:cursor-pointer
+            `}
           onClick={() => props.handleColorChange("white")}
         ></div>
       </div>
