@@ -1,4 +1,4 @@
-import { motion} from "motion/react";
+import { motion } from "motion/react";
 
 import { useState } from "react";
 import AboutMe from "./intro-boxes/AboutMe";
@@ -20,7 +20,8 @@ const MainContainer = () => {
     <motion.main
       className={`
         lg:w-11/12 w-full h-full align-middle p-12 pb-10 m-auto
-        outline relative
+        max-w-7xl
+        relative
         lg:overflow-y-hidden
         overflow-y-auto 
         overflow-x-hidden
