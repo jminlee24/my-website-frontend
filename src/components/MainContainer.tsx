@@ -7,6 +7,7 @@ import ContactMe from "./intro-boxes/ContactMe";
 import FunFact from "./intro-boxes/FunFact";
 import MainIntro from "./intro-boxes/MainIntro";
 import Projects from "./intro-boxes/Projects";
+import Experience from "./intro-boxes/Experience";
 
 const MainContainer = () => {
   const [color, setColor] = useState<string>("white");
@@ -64,7 +65,7 @@ const MainContainer = () => {
         variants={{ visible: { y: 0 }, hidden: { y: 1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-1 lg:row-span-3 bg-gray-800"
       >
-        <ContactMe />
+        <Experience />
       </motion.div>
       <motion.div
         variants={{ visible: { x: 0 }, hidden: { x: -1000 } }}
@@ -76,7 +77,7 @@ const MainContainer = () => {
         variants={{ visible: { y: 0 }, hidden: { y: 1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-1 lg:row-span-2 bg-gray-800"
       >
-        OTHER COOL THING
+        <ContactMe />
       </motion.div>
       <motion.div
         variants={{ visible: { x: 0 }, hidden: { x: 1000 } }}
