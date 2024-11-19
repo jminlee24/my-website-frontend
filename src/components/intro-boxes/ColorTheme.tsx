@@ -19,10 +19,10 @@ const ColorTheme = (props: Props) => {
         ></div>
         <div
           className={`
-            border-outline border-4 bg-green rounded-full w-12 h-12 min-w-12 hover:border-green
+            border-outline border-4 bg-rebeccapurple rounded-full w-12 h-12 min-w-12 hover:border-green
             transition ease-in hover:scale-125 hover:cursor-pointer
             `}
-          onClick={() => props.handleColorChange("green")}
+          onClick={() => props.handleColorChange("rebeccapurple")}
         ></div>
         <div
           className={`

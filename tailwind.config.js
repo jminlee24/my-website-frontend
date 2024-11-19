@@ -17,7 +17,7 @@ export default {
       white: colors.white,
       gray: colors.slate,
       red: "rgb(var(--color-red))",
-      green: "rgb(var(--color-green))",
+      rebeccapurple: "rgb(var(--color-rebeccapurple))",
       blue: "rgb(var(--color-blue))",
       outline: "rgb(var(--color-outline))",
     },

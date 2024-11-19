@@ -6,6 +6,7 @@
   :root {
     --color-red: 255 0 0;
     --color-green: 0 200 50;
+    --color-rebeccapurple: 102 51 153;
     --color-blue: 50 170 255;
     --color-white: 255 255 255;
     --color-outline: var(--color-white);
@@ -16,8 +17,8 @@
   .red {
     --color-outline: var(--color-red);
   }
-  .green {
-    --color-outline: var(--color-green);
+  .rebeccapurple {
+    --color-outline: var(--color-rebeccapurple);
   }
   .blue {
     --color-outline: var(--color-blue);
