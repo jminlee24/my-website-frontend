@@ -53,19 +53,19 @@ const MainContainer = () => {
         variants={{ visible: { x: 0 }, hidden: { x: 1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-1 md:row-span-4 bg-gray-800"
       >
-        <AboutMe />
+        <Experience />
       </motion.div>
       <motion.div
         variants={{ visible: { x: 0 }, hidden: { x: -1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-2 lg:row-span-2 bg-gray-800"
       >
-        <Projects />
+        <AboutMe />
       </motion.div>
       <motion.div
         variants={{ visible: { y: 0 }, hidden: { y: 1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-1 lg:row-span-3 bg-gray-800"
       >
-        <Experience />
+        <ContactMe />
       </motion.div>
       <motion.div
         variants={{ visible: { x: 0 }, hidden: { x: -1000 } }}
@@ -77,7 +77,7 @@ const MainContainer = () => {
         variants={{ visible: { y: 0 }, hidden: { y: 1000 } }}
         className="border rounded-xl hover:border-outline border-gray-600 md:col-span-1 lg:row-span-2 bg-gray-800"
       >
-        <ContactMe />
+        <Projects />
       </motion.div>
       <motion.div
         variants={{ visible: { x: 0 }, hidden: { x: 1000 } }}

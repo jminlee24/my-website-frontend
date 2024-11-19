@@ -13,14 +13,6 @@ const AboutMe = () => {
           to keep up to date with what projects are fresh!{" "}
         </p>
         <br />
-        <p>Right now I mainly use these languages/technologies</p>
-        <ul className="list-disc list-inside">
-          <li>Typescript</li>
-          <li>React</li>
-          <li>Vite</li>
-          <li>Node.js</li>
-          <li>Rust</li>
-        </ul>
 
         <p className="pt-2">
           Besides programming, I love piano, basketball, and video games. I'm

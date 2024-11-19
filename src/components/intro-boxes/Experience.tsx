@@ -14,6 +14,8 @@ const Experience = () => {
         </p>
       </div>
       <br></br>
+      <div className="w-full h-[1px] bg-white"></div>
+      <br></br>
       <div className="flex flex-col">
         <h2 className="flex text-lg font-semibold">
           Software Engineering Intern

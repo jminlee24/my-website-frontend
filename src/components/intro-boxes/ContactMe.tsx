@@ -9,8 +9,8 @@ const ContactMe = () => {
         <p className="text-lg">
           I'm always looking for new and interesting opportunities!
         </p>
-        <h2 className="text-bold text-lg font-bold">Socials:</h2>
-        <ul className="flex flex-col gap-1 ">
+        <h2 className="text-bold text-lg font-bold py-4">Socials:</h2>
+        <ul className="flex flex-col gap-2 ">
           <a
             className="hover:font-bold"
             href="https://github.com/jminlee24"
